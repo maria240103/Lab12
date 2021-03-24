@@ -19,37 +19,22 @@ void main()
 	// Координаты для треугольника
 #pragma region Coordinats
 	//// Ручной ввод
-	/*for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		coord[i] = Pos();
-		cout << "x1 = "; cin >> coord[i].X;
-		cout << "y1 = "; cin >> coord[i].Y;
+		cout << "x" << i << " = "; cin >> coord[i].X;
+		cout << "y" << i << " = "; cin >> coord[i].Y;
 		cout << endl;
-	}*/
+	}
 
 	////Равосторонний
-	//coord[0].X = 0;
-	//coord[0].Y = 0;
-	//coord[1].X = 0.5;
-	//coord[1].Y = sqrt(3) / 2;
-	//coord[2].X = 1;
-	//coord[2].Y = 0;
+	
 
 	////Равнобедренный
-	//coord[0].X = 0;
-	//coord[0].Y = 0;
-	//coord[1].X = 0;
-	//coord[1].Y = 1;
-	//coord[2].X = 1;
-	//coord[2].Y = 0;
+
 
 	//Прямоугольный
-	coord[0].X = 0;
-	coord[0].Y = 0;
-	coord[1].X = 0;
-	coord[1].Y = 16;
-	coord[2].X = 25;
-	coord[2].Y = 0;
+	
 #pragma endregion
 
 
